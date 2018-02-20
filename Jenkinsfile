@@ -1,7 +1,7 @@
 @Library("MyLibrary@master") _
 node ('LinuxAgent') {
 standardPipeline {
-        projectName = "Project1"
-        serverDomain = "Project1 Server Domain"
+        projectName = "Sample Java Project"
+        serverDomain = "Java Server Domain"
     }
 }
